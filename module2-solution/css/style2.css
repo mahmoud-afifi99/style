@@ -1,0 +1,108 @@
+	*{
+		box-sizing:border-box;
+
+	}
+	.div1{
+	position: relative;
+	background-color:  gray ;
+	width:100%;
+     border: 1px solid black;
+     font-family: Helvetica;
+
+	}
+	.header1{
+text-align:center;
+font-family: Helvetica;
+
+
+
+	}
+	section
+	{
+    position: relative;
+    
+padding: 10px;
+   
+
+	}
+   .firstheader{
+    margin-left:70%;
+   text-align: center;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0
+   width:25%;
+   background-color: red;
+   
+   
+   }
+   .seconfheader{
+ margin-left:70%;
+ text-align: center;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0
+   width:25%;
+   background-color: red;
+   }
+   .thirdheader{
+   	margin-left:70%;
+   text-align: center;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0
+   width:25%;
+   background-color: red;
+   }
+  
+p{
+	width:100%;
+	height:150px;
+	margin: 0;
+	padding: 5px;
+	overflow: auto;
+	clear: both;
+}
+	@media(min-width: 768px) and (max-width: 991px)
+	{
+         .section11{
+
+         	float: left;
+         }
+         .section11{width: 50%;
+         	margin-right: auto;
+         	margin-left: auto;}
+         
+         .section33{width: 100%;
+         	         	float: left;
+
+         margin-right: auto;
+         	margin-left: auto;}
+
+	}
+	@media(min-width:992px)
+	{
+
+
+         .section1 {
+
+         	float: left;
+         	width: 33.3%;
+             }
+         
+
+
+	}
+	@media(max-width: 767px)
+	{
+
+    .section111 {
+         	
+         	float: left;
+         	width:100%;
+		margin-bottom: auto;
+	}
+	
+
+
+}
